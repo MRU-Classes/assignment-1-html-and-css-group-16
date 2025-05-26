@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact the MRU General Science team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Site logo" class="logo">
+        <h1>Contact the General Science Team</h1>
+        <nav>
+            <ul>
+                <li><a href="welcome.html">Home</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="mailto:you@example.com" method="post">
+            <label>Subject: <input type="text" name="subject" required maxlength="100"></label><br>
+            <label>Email: <input type="email" name="email" required placeholder="richardj1212@example.com" pattern=".+@.+\..+"></label><br>
+            <label>Phone (optional): <input type="tel" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></label><br>
+            <label>Message:<br><textarea required></textarea></label><br>
+            <label><input type="radio" name="contact" value="student"> I'm a student</label>
+            <label><input type="radio" name="contact" value="educator"> I'm an educator</label><br>
+            <label><input type="checkbox" name="updates"> Interested in newsletter</label>
+            <label><input type="checkbox" name="mentorship"> Want mentorship</label><br>
+            <label>Preferred Contact Date: <input type="date" name="contact-date"></label><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Work Hard Work Smart</p>
+    </footer>
+</body>
+</html>

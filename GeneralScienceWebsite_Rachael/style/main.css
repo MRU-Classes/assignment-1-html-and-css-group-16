@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    line-height: 2;
+}
+
+header, footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav .active a {
+    color: red;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+img.float-right {
+    float: right;
+    margin-left: 20px;
+}
+.lab-photo {
+    width: 400px; /* or try 300px if it still looks big */
+    height: auto;
+    border-radius: 8px; /* optional: softens corners */
+}
+
+figure.float-right {
+    float: right;
+    margin-left: 20px;
+    width: 400px;
+}
+
+figure.float-right img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+figure figcaption {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.logo {
+    float: left;
+    width: 90px;
+    height: auto;
+    margin-right: 20px;
+}
+
+input[required], textarea[required] {
+    border: 2px solid red;
+}
